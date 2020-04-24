@@ -1,0 +1,324 @@
+{
+	"info": {
+		"_postman_id": "ca0e020a-2f4c-4dd6-9313-426c23fc5a25",
+		"name": "compare-jsons-service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Post base Json",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYmMiLCJleHAiOjE1ODc3NjAzNTMsImlhdCI6MTU4NzcyNDM1M30.kxDRba3_mI8EJ6VqnufRPvupnjAm26Qoy1CzJBllY14"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"status\": \"SUCCESS\",\r\n\t\"content\": [\r\n\t\t\r\n\t\t{\r\n\t\t\t\"apiConnectionDefnId\": null,\r\n\t\t\t\"apiPath\": null,\r\n\t\t\t\"name\": \"DepartmentDivisions\",\r\n\t\t\t\"label\": \"DepartmentDivisions\",\r\n\t\t\t\"description\": \"departmentDivision\",\r\n\t\t\t\"version\": 1.0,\r\n\t\t\t\"activeFlag\": false,\r\n\t\t\t\"type\": \"USER_DEFINED\",\r\n\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\"apiHeaders\": {\r\n\t\t\t\t\r\n\t\t\t},\r\n\t\t\t\"apiConnectionDefn\": null,\r\n\t\t\t\"baseMasterDataDefnId\": null,\r\n\t\t\t\"objectDefn\": null,\r\n\t\t\t\"fields\": {\r\n\t\t\t\t\"deptDivId\": {\r\n\t\t\t\t\t\"name\": \"deptDivId\",\r\n\t\t\t\t\t\"label\": \"Association ID\",\r\n\t\t\t\t\t\"description\": \"deptDivId\",\r\n\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\"dataTypeDefn\": {\r\n\t\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\t\"name\": \"Text\",\r\n\t\t\t\t\t\t\"parameterDefns\": []\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"dataTypeDefnParameters\": {\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"sequence\": 1.0,\r\n\t\t\t\t\t\"searchableFlag\": false,\r\n\t\t\t\t\t\"deletedFlag\": false,\r\n\t\t\t\t\t\"primaryKeyFlag\": true,\r\n\t\t\t\t\t\"uniqueKeyFlag\": false,\r\n\t\t\t\t\t\"nullableFlag\": false,\r\n\t\t\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\t\t\"localizedFlag\": false\r\n\t\t\t\t},\r\n\t\t\t\t\"deptId\": {\r\n\t\t\t\t\t\"name\": \"deptId\",\r\n\t\t\t\t\t\"label\": \"department Id\",\r\n\t\t\t\t\t\"description\": \"deptId\",\r\n\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\"dataTypeDefn\": {\r\n\t\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\t\"name\": \"Text\",\r\n\t\t\t\t\t\t\"parameterDefns\": []\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"dataTypeDefnParameters\": {\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"sequence\": 2.0,\r\n\t\t\t\t\t\"searchableFlag\": false,\r\n\t\t\t\t\t\"deletedFlag\": false,\r\n\t\t\t\t\t\"primaryKeyFlag\": false,\r\n\t\t\t\t\t\"uniqueKeyFlag\": false,\r\n\t\t\t\t\t\"nullableFlag\": false,\r\n\t\t\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\t\t\"localizedFlag\": false\r\n\t\t\t\t},\r\n\t\t\t\t\"divId\": {\r\n\t\t\t\t\t\"name\": \"divId\",\r\n\t\t\t\t\t\"label\": \"division Id\",\r\n\t\t\t\t\t\"description\": \"divId\",\r\n\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\"dataTypeDefn\": {\r\n\t\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\t\"name\": \"Text\",\r\n\t\t\t\t\t\t\"parameterDefns\": []\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"dataTypeDefnParameters\": {\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"sequence\": 3.0,\r\n\t\t\t\t\t\"searchableFlag\": false,\r\n\t\t\t\t\t\"deletedFlag\": false,\r\n\t\t\t\t\t\"primaryKeyFlag\": false,\r\n\t\t\t\t\t\"uniqueKeyFlag\": false,\r\n\t\t\t\t\t\"nullableFlag\": false,\r\n\t\t\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\t\t\"localizedFlag\": false\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"apiConnectionDefnId\": null,\r\n\t\t\t\"apiPath\": null,\r\n\t\t\t\"name\": \"Division\",\r\n\t\t\t\"label\": \"division\",\r\n\t\t\t\"description\": \"division\",\r\n\t\t\t\"version\": 1.0,\r\n\t\t\t\"activeFlag\": false,\r\n\t\t\t\"type\": \"USER_DEFINED\",\r\n\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\"apiHeaders\": {\r\n\t\t\t\t\r\n\t\t\t},\r\n\t\t\t\"apiConnectionDefn\": null,\r\n\t\t\t\"baseMasterDataDefnId\": null,\r\n\t\t\t\"objectDefn\": null,\r\n\t\t\t\"fields\": {\r\n\t\t\t\t\"divId\": {\r\n\t\t\t\t\t\"name\": \"divId\",\r\n\t\t\t\t\t\"label\": \"division Id\",\r\n\t\t\t\t\t\"description\": \"divId\",\r\n\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\"dataTypeDefn\": {\r\n\t\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\t\"name\": \"Text\",\r\n\t\t\t\t\t\t\"parameterDefns\": []\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"dataTypeDefnParameters\": {\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"sequence\": 1.0,\r\n\t\t\t\t\t\"searchableFlag\": false,\r\n\t\t\t\t\t\"deletedFlag\": false,\r\n\t\t\t\t\t\"primaryKeyFlag\": true,\r\n\t\t\t\t\t\"uniqueKeyFlag\": false,\r\n\t\t\t\t\t\"nullableFlag\": false,\r\n\t\t\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\t\t\"localizedFlag\": false\r\n\t\t\t\t},\r\n\t\t\t\t\"name\": {\r\n\t\t\t\t\t\"name\": \"name\",\r\n\t\t\t\t\t\"label\": \"name\",\r\n\t\t\t\t\t\"description\": \"name\",\r\n\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\"dataTypeDefn\": {\r\n\t\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\t\"name\": \"Text\",\r\n\t\t\t\t\t\t\"parameterDefns\": []\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"dataTypeDefnParameters\": {\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"sequence\": 2.0,\r\n\t\t\t\t\t\"searchableFlag\": false,\r\n\t\t\t\t\t\"deletedFlag\": false,\r\n\t\t\t\t\t\"primaryKeyFlag\": false,\r\n\t\t\t\t\t\"uniqueKeyFlag\": false,\r\n\t\t\t\t\t\"nullableFlag\": false,\r\n\t\t\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\t\t\"localizedFlag\": false\r\n\t\t\t\t},\r\n\t\t\t\t\"deptId\": {\r\n\t\t\t\t\t\"name\": \"deptId\",\r\n\t\t\t\t\t\"label\": \"Department ID \",\r\n\t\t\t\t\t\"description\": \"Department Id\",\r\n\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\"dataTypeDefn\": {\r\n\t\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\t\"name\": \"Text\",\r\n\t\t\t\t\t\t\"parameterDefns\": []\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"dataTypeDefnParameters\": {\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"sequence\": 3.0,\r\n\t\t\t\t\t\"searchableFlag\": false,\r\n\t\t\t\t\t\"deletedFlag\": false,\r\n\t\t\t\t\t\"primaryKeyFlag\": false,\r\n\t\t\t\t\t\"uniqueKeyFlag\": false,\r\n\t\t\t\t\t\"nullableFlag\": false,\r\n\t\t\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\t\t\"localizedFlag\": false\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t}\r\n\t],\r\n\t\"messages\": []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/base-jsons",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"base-jsons"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Authentication",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"username\" : \"abc\",\n\t\"password\" : \"xyz\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/authenticate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"authenticate"
+					]
+				},
+				"description": "This request returns jwt token"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Json by id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYmMiLCJleHAiOjE1ODc3NTYxNzYsImlhdCI6MTU4NzcyMDE3Nn0._cyk7sHKHNp-J4pfK3AwQ9DgN4qlr6S72TN6J0b18qU",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/base-jsons/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"base-jsons",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all Jsons",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYmMiLCJleHAiOjE1ODc3NTYxNzYsImlhdCI6MTU4NzcyMDE3Nn0._cyk7sHKHNp-J4pfK3AwQ9DgN4qlr6S72TN6J0b18qU",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/base-jsons",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"base-jsons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Compare Jsons",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYmMiLCJleHAiOjE1ODc3NjAzNTMsImlhdCI6MTU4NzcyNDM1M30.kxDRba3_mI8EJ6VqnufRPvupnjAm26Qoy1CzJBllY14",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"status\": \"SUCCESS\",\r\n\t\"content\": [\r\n\t\t\r\n\t\t{\r\n\t\t\t\"apiConnectionDefnId\": null,\r\n\t\t\t\"apiPath\": null,\r\n\t\t\t\"name\": \"DepartmentDivisions\",\r\n\t\t\t\"label\": \"DepartmentDivisions\",\r\n\t\t\t\"description\": \"departmentDivision\",\r\n\t\t\t\"version\": 1.0,\r\n\t\t\t\"activeFlag\": false,\r\n\t\t\t\"type\": \"USER_DEFINED\",\r\n\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\"apiHeaders\": {\r\n\t\t\t\t\r\n\t\t\t},\r\n\t\t\t\"apiConnectionDefn\": null,\r\n\t\t\t\"baseMasterDataDefnId\": null,\r\n\t\t\t\"objectDefn\": null,\r\n\t\t\t\"fields\": {\r\n\t\t\t\t\"deptDivId\": {\r\n\t\t\t\t\t\"name\": \"deptDivId\",\r\n\t\t\t\t\t\"label\": \"Association ID\",\r\n\t\t\t\t\t\"description\": \"deptDivId\",\r\n\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\"dataTypeDefn\": {\r\n\t\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\t\"name\": \"Text\",\r\n\t\t\t\t\t\t\"parameterDefns\": []\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"dataTypeDefnParameters\": {\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"sequence\": 1.0,\r\n\t\t\t\t\t\"searchableFlag\": false,\r\n\t\t\t\t\t\"deletedFlag\": false,\r\n\t\t\t\t\t\"primaryKeyFlag\": true,\r\n\t\t\t\t\t\"uniqueKeyFlag\": false,\r\n\t\t\t\t\t\"nullableFlag\": false,\r\n\t\t\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\t\t\"localizedFlag\": false\r\n\t\t\t\t},\r\n\t\t\t\t\"deptId\": {\r\n\t\t\t\t\t\"name\": \"deptId\",\r\n\t\t\t\t\t\"label\": \"department Id\",\r\n\t\t\t\t\t\"description\": \"deptId\",\r\n\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\"dataTypeDefn\": {\r\n\t\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\t\"name\": \"Text\",\r\n\t\t\t\t\t\t\"parameterDefns\": []\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"dataTypeDefnParameters\": {\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"sequence\": 2.0,\r\n\t\t\t\t\t\"searchableFlag\": false,\r\n\t\t\t\t\t\"deletedFlag\": false,\r\n\t\t\t\t\t\"primaryKeyFlag\": false,\r\n\t\t\t\t\t\"uniqueKeyFlag\": false,\r\n\t\t\t\t\t\"nullableFlag\": false,\r\n\t\t\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\t\t\"localizedFlag\": false\r\n\t\t\t\t},\r\n\t\t\t\t\"divId\": {\r\n\t\t\t\t\t\"name\": \"divId\",\r\n\t\t\t\t\t\"label\": \"division Id\",\r\n\t\t\t\t\t\"description\": \"divId\",\r\n\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\"dataTypeDefn\": {\r\n\t\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\t\"name\": \"Text\",\r\n\t\t\t\t\t\t\"parameterDefns\": []\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"dataTypeDefnParameters\": {\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"sequence\": 3.0,\r\n\t\t\t\t\t\"searchableFlag\": false,\r\n\t\t\t\t\t\"deletedFlag\": false,\r\n\t\t\t\t\t\"primaryKeyFlag\": false,\r\n\t\t\t\t\t\"uniqueKeyFlag\": false,\r\n\t\t\t\t\t\"nullableFlag\": false,\r\n\t\t\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\t\t\"localizedFlag\": false\r\n\t\t\t\t},\r\n\t\t\t\t\"activeFlag\": {\r\n\t\t\t\t\t\"name\": \"activeFlag\",\r\n\t\t\t\t\t\"label\": \"Active Flag\",\r\n\t\t\t\t\t\"description\": \"Active Flag\",\r\n\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\"dataTypeDefn\": {\r\n\t\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\t\"name\": \"Text\",\r\n\t\t\t\t\t\t\"parameterDefns\": []\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"dataTypeDefnParameters\": {\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"sequence\": 3.0,\r\n\t\t\t\t\t\"searchableFlag\": false,\r\n\t\t\t\t\t\"deletedFlag\": false,\r\n\t\t\t\t\t\"primaryKeyFlag\": false,\r\n\t\t\t\t\t\"uniqueKeyFlag\": false,\r\n\t\t\t\t\t\"nullableFlag\": false,\r\n\t\t\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\t\t\"localizedFlag\": false\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"apiConnectionDefnId\": null,\r\n\t\t\t\"apiPath\": null,\r\n\t\t\t\"name\": \"Division\",\r\n\t\t\t\"label\": \"division\",\r\n\t\t\t\"description\": \"division\",\r\n\t\t\t\"version\": 1.0,\r\n\t\t\t\"activeFlag\": false,\r\n\t\t\t\"type\": \"USER_DEFINED\",\r\n\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\"apiHeaders\": {\r\n\t\t\t\t\r\n\t\t\t},\r\n\t\t\t\"apiConnectionDefn\": null,\r\n\t\t\t\"baseMasterDataDefnId\": null,\r\n\t\t\t\"objectDefn\": null,\r\n\t\t\t\"fields\": {\r\n\t\t\t\t\"divId\": {\r\n\t\t\t\t\t\"name\": \"divId\",\r\n\t\t\t\t\t\"label\": \"division Id\",\r\n\t\t\t\t\t\"description\": \"divId\",\r\n\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\"dataTypeDefn\": {\r\n\t\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\t\"name\": \"Text\",\r\n\t\t\t\t\t\t\"parameterDefns\": []\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"dataTypeDefnParameters\": {\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"sequence\": 1.0,\r\n\t\t\t\t\t\"searchableFlag\": false,\r\n\t\t\t\t\t\"deletedFlag\": false,\r\n\t\t\t\t\t\"primaryKeyFlag\": true,\r\n\t\t\t\t\t\"uniqueKeyFlag\": false,\r\n\t\t\t\t\t\"nullableFlag\": false,\r\n\t\t\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\t\t\"localizedFlag\": false\r\n\t\t\t\t},\r\n\t\t\t\t\"name\": {\r\n\t\t\t\t\t\"name\": \"name\",\r\n\t\t\t\t\t\"label\": \"name\",\r\n\t\t\t\t\t\"description\": \"name\",\r\n\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\"dataTypeDefn\": {\r\n\t\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\t\"name\": \"Text\",\r\n\t\t\t\t\t\t\"parameterDefns\": []\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"dataTypeDefnParameters\": {\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"sequence\": 2.0,\r\n\t\t\t\t\t\"searchableFlag\": false,\r\n\t\t\t\t\t\"deletedFlag\": false,\r\n\t\t\t\t\t\"primaryKeyFlag\": false,\r\n\t\t\t\t\t\"uniqueKeyFlag\": false,\r\n\t\t\t\t\t\"nullableFlag\": false,\r\n\t\t\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\t\t\"localizedFlag\": false\r\n\t\t\t\t},\r\n\t\t\t\t\"deptId\": {\r\n\t\t\t\t\t\"name\": \"deptId\",\r\n\t\t\t\t\t\"label\": \"Department ID \",\r\n\t\t\t\t\t\"description\": \"Department Id\",\r\n\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\"dataTypeDefn\": {\r\n\t\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\t\"name\": \"Text\",\r\n\t\t\t\t\t\t\"parameterDefns\": []\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"dataTypeDefnParameters\": {\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"sequence\": 3.0,\r\n\t\t\t\t\t\"searchableFlag\": false,\r\n\t\t\t\t\t\"deletedFlag\": false,\r\n\t\t\t\t\t\"primaryKeyFlag\": false,\r\n\t\t\t\t\t\"uniqueKeyFlag\": false,\r\n\t\t\t\t\t\"nullableFlag\": false,\r\n\t\t\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\t\t\"localizedFlag\": false\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"apiConnectionDefnId\": null,\r\n\t\t\t\"apiPath\": null,\r\n\t\t\t\"name\": \"Employee\",\r\n\t\t\t\"label\": \"Employee\",\r\n\t\t\t\"description\": \"Employee\",\r\n\t\t\t\"version\": 1.0,\r\n\t\t\t\"activeFlag\": false,\r\n\t\t\t\"type\": \"USER_DEFINED\",\r\n\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\"apiHeaders\": {\r\n\t\t\t\t\r\n\t\t\t},\r\n\t\t\t\"apiConnectionDefn\": null,\r\n\t\t\t\"baseMasterDataDefnId\": null,\r\n\t\t\t\"objectDefn\": null,\r\n\t\t\t\"fields\": {\r\n\t\t\t\t\"divId\": {\r\n\t\t\t\t\t\"name\": \"employeeId\",\r\n\t\t\t\t\t\"label\": \"employee Id\",\r\n\t\t\t\t\t\"description\": \"Employee ID\",\r\n\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\"dataTypeDefn\": {\r\n\t\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\t\"name\": \"Text\",\r\n\t\t\t\t\t\t\"parameterDefns\": []\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"dataTypeDefnParameters\": {\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"sequence\": 1.0,\r\n\t\t\t\t\t\"searchableFlag\": false,\r\n\t\t\t\t\t\"deletedFlag\": false,\r\n\t\t\t\t\t\"primaryKeyFlag\": true,\r\n\t\t\t\t\t\"uniqueKeyFlag\": false,\r\n\t\t\t\t\t\"nullableFlag\": false,\r\n\t\t\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\t\t\"localizedFlag\": false\r\n\t\t\t\t},\r\n\t\t\t\t\"name\": {\r\n\t\t\t\t\t\"name\": \"name\",\r\n\t\t\t\t\t\"label\": \"name\",\r\n\t\t\t\t\t\"description\": \"name\",\r\n\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\"dataTypeDefn\": {\r\n\t\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\t\"name\": \"Text\",\r\n\t\t\t\t\t\t\"parameterDefns\": []\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"dataTypeDefnParameters\": {\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"sequence\": 2.0,\r\n\t\t\t\t\t\"searchableFlag\": false,\r\n\t\t\t\t\t\"deletedFlag\": false,\r\n\t\t\t\t\t\"primaryKeyFlag\": false,\r\n\t\t\t\t\t\"uniqueKeyFlag\": false,\r\n\t\t\t\t\t\"nullableFlag\": false,\r\n\t\t\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\t\t\"localizedFlag\": false\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t}\r\n\t],\r\n\t\"messages\": []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/base-jsons/compare/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"base-jsons",
+						"compare",
+						"3"
+					]
+				},
+				"description": "This json compares the base json with input json.\nReturns the difference available in base json."
+			},
+			"response": []
+		},
+		{
+			"name": "Update Json",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYmMiLCJleHAiOjE1ODc3NTYxNzYsImlhdCI6MTU4NzcyMDE3Nn0._cyk7sHKHNp-J4pfK3AwQ9DgN4qlr6S72TN6J0b18qU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"status\": \"SUCCESS\",\r\n\t\"content\": [\r\n\t\t\r\n\t\t{\r\n\t\t\t\"apiConnectionDefnId\": null,\r\n\t\t\t\"apiPath\": null,\r\n\t\t\t\"name\": \"DepartmentDivisions\",\r\n\t\t\t\"label\": \"DepartmentDivisions\",\r\n\t\t\t\"description\": \"departmentDivision\",\r\n\t\t\t\"version\": 1.0,\r\n\t\t\t\"activeFlag\": false,\r\n\t\t\t\"type\": \"USER_DEFINED\",\r\n\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\"apiHeaders\": {\r\n\t\t\t\t\r\n\t\t\t},\r\n\t\t\t\"apiConnectionDefn\": null,\r\n\t\t\t\"baseMasterDataDefnId\": null,\r\n\t\t\t\"objectDefn\": null,\r\n\t\t\t\"fields\": {\r\n\t\t\t\t\"deptDivId\": {\r\n\t\t\t\t\t\"name\": \"deptDivId\",\r\n\t\t\t\t\t\"label\": \"Association ID\",\r\n\t\t\t\t\t\"description\": \"deptDivId\",\r\n\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\"dataTypeDefn\": {\r\n\t\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\t\"name\": \"Text\",\r\n\t\t\t\t\t\t\"parameterDefns\": []\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"dataTypeDefnParameters\": {\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"sequence\": 1.0,\r\n\t\t\t\t\t\"searchableFlag\": false,\r\n\t\t\t\t\t\"deletedFlag\": false,\r\n\t\t\t\t\t\"primaryKeyFlag\": true,\r\n\t\t\t\t\t\"uniqueKeyFlag\": false,\r\n\t\t\t\t\t\"nullableFlag\": false,\r\n\t\t\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\t\t\"localizedFlag\": false\r\n\t\t\t\t},\r\n\t\t\t\t\"deptId\": {\r\n\t\t\t\t\t\"name\": \"deptId\",\r\n\t\t\t\t\t\"label\": \"department Id\",\r\n\t\t\t\t\t\"description\": \"deptId\",\r\n\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\"dataTypeDefn\": {\r\n\t\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\t\"name\": \"Text\",\r\n\t\t\t\t\t\t\"parameterDefns\": []\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"dataTypeDefnParameters\": {\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"sequence\": 2.0,\r\n\t\t\t\t\t\"searchableFlag\": false,\r\n\t\t\t\t\t\"deletedFlag\": false,\r\n\t\t\t\t\t\"primaryKeyFlag\": false,\r\n\t\t\t\t\t\"uniqueKeyFlag\": false,\r\n\t\t\t\t\t\"nullableFlag\": false,\r\n\t\t\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\t\t\"localizedFlag\": false\r\n\t\t\t\t},\r\n\t\t\t\t\"divId\": {\r\n\t\t\t\t\t\"name\": \"divId\",\r\n\t\t\t\t\t\"label\": \"division Id\",\r\n\t\t\t\t\t\"description\": \"divId\",\r\n\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\"dataTypeDefn\": {\r\n\t\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\t\"name\": \"Text\",\r\n\t\t\t\t\t\t\"parameterDefns\": []\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"dataTypeDefnParameters\": {\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"sequence\": 3.0,\r\n\t\t\t\t\t\"searchableFlag\": false,\r\n\t\t\t\t\t\"deletedFlag\": false,\r\n\t\t\t\t\t\"primaryKeyFlag\": false,\r\n\t\t\t\t\t\"uniqueKeyFlag\": false,\r\n\t\t\t\t\t\"nullableFlag\": false,\r\n\t\t\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\t\t\"localizedFlag\": false\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"apiConnectionDefnId\": null,\r\n\t\t\t\"apiPath\": null,\r\n\t\t\t\"name\": \"Division\",\r\n\t\t\t\"label\": \"division\",\r\n\t\t\t\"description\": \"division\",\r\n\t\t\t\"version\": 1.0,\r\n\t\t\t\"activeFlag\": false,\r\n\t\t\t\"type\": \"USER_DEFINED\",\r\n\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\"apiHeaders\": {\r\n\t\t\t\t\r\n\t\t\t},\r\n\t\t\t\"apiConnectionDefn\": null,\r\n\t\t\t\"baseMasterDataDefnId\": null,\r\n\t\t\t\"objectDefn\": null,\r\n\t\t\t\"fields\": {\r\n\t\t\t\t\"divId\": {\r\n\t\t\t\t\t\"name\": \"divId\",\r\n\t\t\t\t\t\"label\": \"division Id\",\r\n\t\t\t\t\t\"description\": \"divId\",\r\n\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\"dataTypeDefn\": {\r\n\t\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\t\"name\": \"Text\",\r\n\t\t\t\t\t\t\"parameterDefns\": []\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"dataTypeDefnParameters\": {\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"sequence\": 1.0,\r\n\t\t\t\t\t\"searchableFlag\": false,\r\n\t\t\t\t\t\"deletedFlag\": false,\r\n\t\t\t\t\t\"primaryKeyFlag\": true,\r\n\t\t\t\t\t\"uniqueKeyFlag\": false,\r\n\t\t\t\t\t\"nullableFlag\": false,\r\n\t\t\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\t\t\"localizedFlag\": false\r\n\t\t\t\t},\r\n\t\t\t\t\"name\": {\r\n\t\t\t\t\t\"name\": \"name\",\r\n\t\t\t\t\t\"label\": \"name\",\r\n\t\t\t\t\t\"description\": \"name\",\r\n\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\"dataTypeDefn\": {\r\n\t\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\t\"name\": \"Text\",\r\n\t\t\t\t\t\t\"parameterDefns\": []\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"dataTypeDefnParameters\": {\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"sequence\": 2.0,\r\n\t\t\t\t\t\"searchableFlag\": false,\r\n\t\t\t\t\t\"deletedFlag\": false,\r\n\t\t\t\t\t\"primaryKeyFlag\": false,\r\n\t\t\t\t\t\"uniqueKeyFlag\": false,\r\n\t\t\t\t\t\"nullableFlag\": false,\r\n\t\t\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\t\t\"localizedFlag\": false\r\n\t\t\t\t},\r\n\t\t\t\t\"deptId\": {\r\n\t\t\t\t\t\"name\": \"deptId\",\r\n\t\t\t\t\t\"label\": \"Department ID \",\r\n\t\t\t\t\t\"description\": \"Department Id\",\r\n\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\"dataTypeDefn\": {\r\n\t\t\t\t\t\t\"dataTypeDefnId\": \"TEXT\",\r\n\t\t\t\t\t\t\"name\": \"Text\",\r\n\t\t\t\t\t\t\"parameterDefns\": []\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"dataTypeDefnParameters\": {\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t},\r\n\t\t\t\t\t\"sequence\": 3.0,\r\n\t\t\t\t\t\"searchableFlag\": false,\r\n\t\t\t\t\t\"deletedFlag\": false,\r\n\t\t\t\t\t\"primaryKeyFlag\": false,\r\n\t\t\t\t\t\"uniqueKeyFlag\": false,\r\n\t\t\t\t\t\"nullableFlag\": false,\r\n\t\t\t\t\t\"tenantId\": \"pX2e1e12c31\",\r\n\t\t\t\t\t\"localizedFlag\": false\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t}\r\n\t],\r\n\t\"messages\": []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/base-jsons/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"base-jsons",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Json by id",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYmMiLCJleHAiOjE1ODc3NTYxNzYsImlhdCI6MTU4NzcyMDE3Nn0._cyk7sHKHNp-J4pfK3AwQ9DgN4qlr6S72TN6J0b18qU"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/base-jsons/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"base-jsons",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete all Jsons",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYmMiLCJleHAiOjE1ODc3NTYxNzYsImlhdCI6MTU4NzcyMDE3Nn0._cyk7sHKHNp-J4pfK3AwQ9DgN4qlr6S72TN6J0b18qU",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/base-jsons",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"base-jsons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Example 2 : Post base Json",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYmMiLCJleHAiOjE1ODc3NjAzNTMsImlhdCI6MTU4NzcyNDM1M30.kxDRba3_mI8EJ6VqnufRPvupnjAm26Qoy1CzJBllY14",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": {\r\n    \"first\": \"Jane\",\r\n    \"last\": \"Doe\"\r\n  },\r\n  \"birthday\": \"1980-01-01\",\r\n  \"occupation\": null,\r\n  \"favorite\": true,\r\n  \"phones\": [\r\n    {\r\n      \"number\": \"111111111\",\r\n      \"type\": \"mobile\"\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/base-jsons",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"base-jsons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Example 2 : Compare Jsons",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYmMiLCJleHAiOjE1ODc3NjAzNTMsImlhdCI6MTU4NzcyNDM1M30.kxDRba3_mI8EJ6VqnufRPvupnjAm26Qoy1CzJBllY14",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": {\r\n    \"first\": \"Jane\",\r\n    \"last\": \"Doe\"\r\n  },\r\n  \"birthday\": \"1980-01-01\",\r\n  \"occupation\": null,\r\n  \"favorite\": true,\r\n  \"phones\": [\r\n    {\r\n      \"number\": \"111111111\",\r\n      \"type\": \"mobile\"\r\n    }\r\n  ]\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/base-jsons/compare",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"base-jsons",
+						"compare"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
